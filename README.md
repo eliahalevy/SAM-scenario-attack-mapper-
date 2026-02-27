@@ -30,27 +30,27 @@ I wanted to see how far I could get using embeddings to bridge that gap and make
 
 ## Example
 
-**Input**
+Input
 
 Attacker steals credentials and moves laterally across machines
 
 
-**Output**
+Output
 
 T1003 – OS Credential Dumping
-Tactics: credential-access
-Similarity: 0.6895
-MITRE Link: https://attack.mitre.org/techniques/T1003/
+- Tactics: credential-access
+- Similarity: 0.6895
+- MITRE Link: https://attack.mitre.org/techniques/T1003/
 
 T1570 – Lateral Tool Transfer
-Tactics: lateral-movement
-Similarity: 0.6889
-MITRE Link: https://attack.mitre.org/techniques/T1570/
+- Tactics: lateral-movement
+- Similarity: 0.6889
+- MITRE Link: https://attack.mitre.org/techniques/T1570/
 
 T1563.002 – RDP Hijacking
-Tactics: lateral-movement
-Similarity: 0.6829
-MITRE Link: https://attack.mitre.org/techniques/T1563/002/
+- Tactics: lateral-movement
+- Similarity: 0.6829
+- MITRE Link: https://attack.mitre.org/techniques/T1563/002/
 
 
 
