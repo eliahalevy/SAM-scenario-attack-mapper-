@@ -1,12 +1,11 @@
 # MITRE ATT&CK Semantic Navigator
 
 A small project that maps plain-English attack scenarios to MITRE ATT&CK techniques using embeddings and semantic search.
-
 The idea is simple: you describe what happened during an incident, and the tool suggests the most relevant ATT&CK techniques.
 
 ---
 
-## Why I built this
+## Why I built this project
 
 In real incidents, things are described like this:
 
