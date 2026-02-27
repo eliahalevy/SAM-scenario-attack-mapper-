@@ -1,6 +1,8 @@
+# SAM - Scenario Attack Mapper
 # MITRE ATT&CK Semantic Navigator
 
 Describe an attack scenario and instantly get the top 3 likely MITRE ATT&CK techniques.
+
 This small project maps plain-English incident descriptions to MITRE ATT&CK techniques using embeddings and semantic search, helping bridge the gap between real incident language and the structured ATT&CK framework.
 
 ---
