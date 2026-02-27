@@ -1,26 +1,27 @@
 # MITRE ATT&CK Semantic Navigator
 
-Map natural-language attack scenarios to MITRE ATT&CK techniques using semantic embeddings.
-This project demonstrates how vector embeddings and semantic search can help security teams quickly translate incident descriptions into relevant MITRE ATT&CK techniques.
+A small project that maps plain-English attack scenarios to MITRE ATT&CK techniques using embeddings and semantic search.
+
+The idea is simple: you describe what happened during an incident, and the tool suggests the most relevant ATT&CK techniques.
 
 ---
 
-## Why this project?
+## Why I built this
 
-Security analysts often describe incidents in plain language:
+In real incidents, things are described like this:
+
 > “Attacker stole credentials and moved laterally across machines”
 
-But MITRE ATT&CK uses structured techniques.
-This tool bridges the gap using AI.
+But MITRE ATT&CK is structured and technique-driven.
+
+I wanted to see how far I could get using embeddings to bridge that gap and make the mapping feel more natural.
 
 ---
 
-## Features
+## What it does
 
-- Parses the official MITRE ATT&CK dataset (STIX)
-- Generates sentence embeddings for all techniques
-- Performs semantic similarity search
-- Returns most relevant techniques for a scenario
-- Embedding caching for fast startup
-
----
+- Parses the official MITRE ATT&CK dataset  
+- Creates embeddings for all techniques  
+- Uses semantic similarity to match scenarios → techniques  
+- Returns the most relevant techniques for consideration  
+- Caches embeddings so the tool starts fast after the first run
